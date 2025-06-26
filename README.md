@@ -84,8 +84,8 @@ Algunos hallazgos:
 
 ## 🖥️ Interfaz Gradio 
 
-![Predicción por clima](/interfaz_clima.png)
-![Consulta por hora](/interfaz_horas.png)
+![Predicción por clima](/Interfaz_clima.png)
+![Consulta por hora](/Interfaz_horas.png)
 
 ---
 
