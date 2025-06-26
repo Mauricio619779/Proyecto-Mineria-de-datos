@@ -32,7 +32,7 @@ Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington 
 
 Algunos hallazgos:
 
-- Los meses con más arriendos son **mayo, junio y septiembre**.
+- Los meses con más arriendos son **Mayo, Abril y Marzo**.
 - La **lluvia y nubosidad** disminuyen significativamente la cantidad de viajes.
 - Hay una relación directa entre **temperatura y cantidad de viajes**.
 
