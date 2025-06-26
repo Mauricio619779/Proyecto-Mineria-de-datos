@@ -38,10 +38,10 @@ Algunos hallazgos:
 
 ### 📊 Visualizaciones
 
-![Distribución mensual de arriendos](images/arriendos_mes.png)
+![Distribución mensual de arriendos](/arriendos_mes.png)
 *Cantidad de viajes por mes (2022–2024)*
 
-![Relación temperatura y viajes](images/Viajes_vs_temperatura.png)
+![Relación temperatura y viajes](/Viajes_vs_temperatura.png)
 *Más temperatura suele implicar más arriendos*
 
 ---
@@ -82,7 +82,7 @@ Algunos hallazgos:
 
 ---
 
-## 🖥️ Interfaz Gradio (capturas)
+## 🖥️ Interfaz Gradio 
 
 ![Predicción por clima](images/interfaz_clima.png)
 ![Consulta por hora](images/interfaz_horas.png)
@@ -91,7 +91,7 @@ Algunos hallazgos:
 
 ## 👨‍💻 Autores
 
-- Nicolás [Apellido]
-- Mauricio [Apellido]
+- Nicolás Concha.
+- Mauricio Badilla.
 
 Proyecto para la asignatura **Minería de Datos (2025)**.
