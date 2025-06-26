@@ -10,7 +10,7 @@ Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington 
 - 🚲 **Datos de arriendos de bicicletas (Capital Bikeshare)**  
   [https://www.capitalbikeshare.com/system-data](https://www.capitalbikeshare.com/system-data)
 
-- 🌦️ **Datos de clima histórico de Washington DC (2022–2024)**  
+- 🌦️ **Datos de clima histórico de Washington DC **  
   [https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407](https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407)
 
 
