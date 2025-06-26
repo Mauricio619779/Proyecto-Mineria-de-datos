@@ -5,7 +5,7 @@ Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington 
 ## 🧪 Etapas del proyecto
 
 1. **Carga de datos**  
-   - Se incorporaron 36 archivos `.csv` de arriendos mensuales (2022–2024) y un dataset de clima diario.
+   - Se incorporaron 36 archivos `.csv` de arriendos mensuales (2022–2024) y un dataset del clima diario de Washington D.C.
 
 2. **Limpieza y preparación**  
    - Se eliminaron valores nulos, se unificaron formatos de fecha, y se filtraron registros incompletos.
