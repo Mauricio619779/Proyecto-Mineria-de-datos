@@ -13,7 +13,7 @@ Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington 
 - 🌦️ **Datos de clima histórico de Washington DC**  
   [https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407](https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407)
 
-
+---
 
 
 ## 🧪 Etapas del proyecto
@@ -110,9 +110,7 @@ Aunque este valor no representa una predicción perfecta, se considera **un resu
 
 En este proyecto solo se utilizaron variables climáticas (temperatura, precipitación, humedad, etc.) y temporales (fecha), por lo que alcanzar un **R² superior al 0.6** refleja una buena capacidad predictiva del modelo considerando las limitaciones de los datos.
 
-**🔍 Conclusión:**  
-El modelo es útil como herramienta de apoyo para estimar **tendencias generales** en el uso de bicicletas bajo ciertas condiciones climáticas, pero **no debe ser considerado como una predicción exacta del comportamiento diario**.
-
+---
 
 ## 🖥️ Interfaz Gradio 
 
