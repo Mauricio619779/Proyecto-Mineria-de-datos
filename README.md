@@ -2,6 +2,20 @@
 
 Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington D.C. entre 2022 y 2024, usando datos históricos de uso y clima. Se entrenó un modelo de machine learning y se desarrolló una interfaz web interactiva.
 
+
+
+
+## 📂 Fuentes de datos
+
+- 🚲 **Datos de arriendos de bicicletas (Capital Bikeshare)**  
+  [https://www.capitalbikeshare.com/system-data](https://www.capitalbikeshare.com/system-data)
+
+- 🌦️ **Datos de clima histórico de Washington DC (2022–2024)**  
+  [https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407](https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407)
+
+
+
+
 ## 🧪 Etapas del proyecto
 
 1. **Carga de datos**  
