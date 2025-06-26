@@ -96,6 +96,24 @@ Algunos hallazgos:
 
 ---
 
+
+## 🤖 Reflexión sobre el desempeño del modelo
+
+El modelo de regresión basado en **Random Forest** obtuvo un **R² de aproximadamente 0.62**, lo cual indica que es capaz de explicar alrededor del **62% de la variabilidad** en la cantidad diaria de arriendos de bicicletas en Washington D.C.
+
+Aunque este valor no representa una predicción perfecta, se considera **un resultado sólido y realista** para este tipo de problema, donde existen múltiples factores externos que afectan la demanda y que no están presentes en el dataset, tales como:
+
+- Eventos públicos, celebraciones o manifestaciones.
+- Feriados o cambios en la rutina laboral/educativa.
+- Disponibilidad o mantenimiento de bicicletas.
+- Cambios en políticas urbanas o infraestructura.
+
+En este proyecto solo se utilizaron variables climáticas (temperatura, precipitación, humedad, etc.) y temporales (fecha), por lo que alcanzar un **R² superior al 0.6** refleja una buena capacidad predictiva del modelo considerando las limitaciones de los datos.
+
+**🔍 Conclusión:**  
+El modelo es útil como herramienta de apoyo para estimar **tendencias generales** en el uso de bicicletas bajo ciertas condiciones climáticas, pero **no debe ser considerado como una predicción exacta del comportamiento diario**.
+
+
 ## 🖥️ Interfaz Gradio 
 
 ![Predicción por clima](/Interfaz_clima.png)
