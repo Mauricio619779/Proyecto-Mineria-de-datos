@@ -1,22 +1,22 @@
-# 🚴‍♂️ Sistema de Análisis y Predicción de Arriendos de Bicicletas
+#  Sistema de Análisis y Predicción de Arriendos de Bicicletas
 
 Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington D.C. entre 2022 y 2024, usando datos históricos de uso y clima. Se entrenó un modelo de machine learning y se desarrolló una interfaz web interactiva.
 
 
 
 
-## 📂 Fuentes de datos
+##  Fuentes de datos
 
-- 🚲 **Datos de arriendos de bicicletas (Capital Bikeshare)**  
+-  **Datos de arriendos de bicicletas (Capital Bikeshare)**  
   [https://www.capitalbikeshare.com/system-data](https://www.capitalbikeshare.com/system-data)
 
-- 🌦️ **Datos de clima histórico de Washington DC**  
+-  **Datos de clima histórico de Washington DC**  
   [https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407](https://www.kaggle.com/datasets/taweilo/washington-dc-historical-weather-20158202407)
 
 ---
 
 
-## 🧪 Etapas del proyecto
+##  Etapas del proyecto
 
 1. **Carga de datos**  
    - Se incorporaron 36 archivos `.csv` de arriendos mensuales (2022–2024) y un dataset del clima diario de Washington D.C.
@@ -42,7 +42,7 @@ Este proyecto busca analizar y predecir el arriendo de bicicletas en Washington 
 
 ---
 
-## 📈 Análisis exploratorio
+##  Análisis exploratorio
 
 Algunos hallazgos:
 
@@ -50,7 +50,7 @@ Algunos hallazgos:
 - La **lluvia y nubosidad** disminuyen significativamente la cantidad de viajes.
 - Hay una relación directa entre **temperatura y cantidad de viajes**.
 
-### 📊 Visualizaciones
+###  Visualizaciones
 
 ![Distribución mensual de arriendos](/arriendos_mes.png)
 *Cantidad de viajes por mes (2022–2024)*
@@ -60,7 +60,7 @@ Algunos hallazgos:
 
 ---
 
-## 🧠 Variables del modelo
+##  Variables del modelo
 
 - `temp`: Temperatura promedio diaria (°C)
 - `precip`: Precipitación acumulada (mm)
@@ -70,25 +70,25 @@ Algunos hallazgos:
 
 ---
 
-## 💡 Funcionalidades de la interfaz
+##  Funcionalidades de la interfaz
 
-### 1. 🌤️ Predicción por clima
+### 1.  Predicción por clima
 - El usuario ingresa condiciones climáticas y el sistema predice los viajes estimados.
 
-### 2. 📅 Predicción por fecha futura
+### 2.  Predicción por fecha futura
 - Basado en datos históricos del mismo día en años anteriores.
 
-### 3. 📊 Consulta de viajes reales
+### 3.  Consulta de viajes reales
 - Permite ver cuántos viajes hubo un día específico y muestra su distribución por hora.
 
-### 4. 🌦️ Consulta del clima histórico
+### 4.  Consulta del clima histórico
 - Permite revisar el clima real de una fecha específica.
 
-📌 *Las consultas históricas están disponibles hasta el 31 de mayo de 2024.*
+ *Las consultas históricas están disponibles hasta el 31 de mayo de 2024.*
 
 ---
 
-## 🎯 Resultados del modelo
+##  Resultados del modelo
 
 - **MAE:** ~2.100  
 - **RMSE:** ~2.600  
@@ -97,7 +97,7 @@ Algunos hallazgos:
 ---
 
 
-## 🤖 Reflexión sobre el desempeño del modelo
+##  Reflexión sobre el desempeño del modelo
 
 El modelo de regresión basado en **Random Forest** obtuvo un **R² de aproximadamente 0.62**, lo cual indica que es capaz de explicar alrededor del **62% de la variabilidad** en la cantidad diaria de arriendos de bicicletas en Washington D.C.
 
@@ -112,14 +112,14 @@ En este proyecto solo se utilizaron variables climáticas (temperatura, precipit
 
 ---
 
-## 🖥️ Interfaz Gradio 
+##  Interfaz Gradio 
 
 ![Predicción por clima](/Interfaz_clima.png)
 ![Consulta por hora](/Interfaz_horas.png)
 
 ---
 
-## 👨‍💻 Autores
+##  Autores
 
 - Nicolás Concha.
 - Mauricio Badilla.
